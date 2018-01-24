@@ -1,3 +1,10 @@
+echo "# website" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/kennethkarj/website.git
+git push -u origin master
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/kennethkarj/website/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
